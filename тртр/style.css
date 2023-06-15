@@ -1,0 +1,466 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100&display=swap');
+/*
+background: rgb(63,94,251);
+background: linear-gradient(90deg, rgba(63,94,251,1) 0%, rgba(252,70,107,0.5) 100%);
+сине розовый градик
+*/
+html{
+    background-image: url(trash-2.png);
+}
+*{
+    margin: 0;
+    padding: 0;
+    margin: 0;
+    
+}
+.inviz{
+    visibility: hidden;
+    display: none;
+}
+.corims{
+    display: flex;
+    justify-content: center;
+    
+    
+}
+.linkss{
+    text-align: center;
+}
+.prest{
+    height: 860px;
+    width: 860px;
+    text-align: center;
+}
+/*special case*/
+.prestOs{
+   
+    text-align: center;
+    height: 70%;
+    width: 70%;
+    
+}
+/*special case*/
+table{
+    border-collapse: collapse;
+    display: block;
+}
+
+.main-corims{
+    width: 20%;
+    height: 120px;
+    padding: 4px;
+}
+.lang-change{
+    position: fixed;
+    right: 10px;
+    top: 10px;
+    font-size: 30pt;
+    background-color: #e9e9e9;
+    padding: 5px;
+    border-radius: 4px;
+    color: black;
+}
+body{
+    width: 65%;
+    margin: auto;
+    background: #ffffff;
+    height: 100%; 
+    min-width: 1000px;
+    
+}
+a{
+    text-decoration: none;
+    color: rgb(224, 224, 224);
+    
+}
+#vava{
+    color: black;
+}
+.footer{
+    background: #e9e9e9;
+}
+a:hover{
+    text-decoration: none;
+}
+a:link{
+    text-decoration: none;
+}
+a:visited{
+    text-decoration: none;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    /*
+    background: rgb(255,175,189);
+    background: linear-gradient(90deg, rgba(255,175,189,1) 0%, rgba(255,195,160,1) 100%);
+    */
+    background: rgb(29,126,75);
+    background: linear-gradient(90deg, rgba(29,126,75,1) 0%, rgba(15,83,29,1) 100%);
+  
+    min-width: 780px;
+}
+.logo-corgi{
+    width: 50%;
+    height: 50%;
+    padding: 0;
+   
+    
+}
+.prelogo{
+     height: 100%;
+     display: flex;
+     align-self: center;
+}
+
+nav{
+    margin-right: 10%;
+}
+ul{
+    display: flex;
+    list-style-type: none;
+    flex-direction: row;
+    
+}
+.about-us{
+    font-size: 20pt;
+    margin: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+
+}
+.opis-puppets{
+    width: 50%;
+    margin: 0 0 0 30px;
+    font-size: 22pt;
+    font-family: Arial;
+}
+
+
+.l{
+    margin-top: 20px;
+}
+.go-to-puppets-div{
+    display: flex;
+   
+    padding: 20px;
+    justify-content: center;
+}
+li{
+    padding: 0px 8px;
+    
+    color:rgb(0, 0, 0);
+    
+    font-weight: 100;
+    margin: 20px 35px;
+    transition-duration: 0.3s;
+    font-size: 14pt;
+    font-family: Roboto;
+    border: 1px dotted black;
+    border-radius: 1px;
+
+    
+}
+
+li:hover{
+    background: rgba(255, 255, 255, 0.39);
+    cursor: pointer;
+    color: rgb(107, 61, 0);
+    
+}
+img{
+    padding: 0px 40px;
+}
+.main{
+    display: flex;
+    
+}
+p{
+    text-align: center;
+    font-family: Roboto;
+    font-size: 82px;
+    margin-bottom: 50px;
+    
+    
+}
+.w{
+    background: rgb(89,191,138);
+    background: linear-gradient(90deg, rgba(35,139,56,1) 0%,rgba(89,191,138,1)  100%);
+}
+.q{
+    background: rgb(89,191,138);
+background: linear-gradient(90deg, rgba(89,191,138,1) 0%, rgba(35,139,56,1) 100%);
+    color: black;
+}
+.rr{
+    
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+  
+    transition-duration: 0.3s;
+    font-family: Roboto;
+    font-size: 32px;
+    font-weight: 100;
+
+    color: rgb(0, 0, 0);
+    width: 15%;
+    padding: 6px;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    min-width: 170px;
+    
+    
+}
+
+
+/* news block starts here */
+.about-uss{
+    background: #f5f5f5;
+    display: flex;
+    align-items: baseline;
+    flex-wrap: wrap;
+    
+  
+
+}
+.abus-back{
+    font-size: 20pt;
+    padding: 12px 8px 8px 8px;
+    margin-right: 13px;
+    font-size: 12pt;
+    text-decoration: none;
+    color: black;
+
+    border-bottom: 2px solid dimgrey;
+    border-right: 2px solid dimgrey;
+
+}
+.upperMenu_span{
+    padding: 10px;
+    background: rgba(199, 243, 253, 0.77);
+    border-left: 2px solid dimgrey;
+    border-top: 2px solid dimgrey;
+}
+
+.all-block-news{
+    display: flex;
+    width: 95%;
+    margin: 20px;
+    flex-direction: column;
+    min-width: 500px;
+    background: white;
+    -webkit-box-shadow: 0px 0px 77px 23px rgba(229, 255, 217, 0.79);
+-moz-box-shadow: 0px 0px 77px 23px rgba(255, 255, 255, 0.79);
+box-shadow: 0px 0px 77px 23px rgba(219, 219, 219, 0.79);
+border-radius: 8px;
+    margin: 30px auto;
+    cursor: pointer;
+
+    
+   
+}
+.all-double-menu{
+    display: flex;
+    background: rgb(0, 128, 0);
+    border-radius: 4px;
+    align-items: center;
+   
+    
+}
+.news-date{
+    display: flex;
+}
+.news-theme{
+    display: flex;
+    font-size: 18pt;
+    font-family: Roboto;
+    font-weight: 900;
+    margin-left: 5%;
+    font-weight: bold;
+}
+.news-text{
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14pt;
+    padding: 8px;
+
+}
+.newsli{
+    font-size: 14pt;
+    border: solid 1px white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* news block ends here */
+.sf-center{
+    text-align: center;
+    margin: 0;
+}
+.sf{
+    height: 50%;
+    width: 50%;
+    
+}
+.tr{
+    margin: 0;
+}
+/*our dogs sec st here*/
+.all-od-blocks{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    background: white;
+    border-bottom: 4px solid wheat;
+
+}
+.rod-2{
+    display: flex;
+    justify-content: center;
+
+}
+.upr-od-sec{
+    margin-bottom: 30px;
+}
+.sas{
+    width: 80%;
+    height: 80%;
+    padding: 0;
+    
+}
+.a{
+    width: 343px;
+    height: 203px;
+    box-shadow: 0px 0px 32px 14px rgba(255, 167, 255, 0.76);
+    margin-right: 20px; 
+  
+}
+.about-us-trname{
+    font-size: 22pt;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.b{
+    width: 343px;
+    height: 203px;
+    box-shadow: 0px 0px 32px 14px rgba(152, 180, 255, 0.76);
+    margin-left: 20px; 
+}
+.trt{
+    display: flex;
+    justify-content: center;
+    font-size: 12pt;
+    margin: 3px;
+    color: black;
+    
+}
+.nn{
+    margin: 0;
+}
+
+.bkoute{
+    font-size: 14pt;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 15px auto;
+    width: 50%;
+}
+/*our dogs sec ends here*/
+
+/*puppies sec starts here*/
+
+.accordion {
+    font-weight: thin;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    width: 100%;
+    color: rgb(155, 155, 155);
+    border: none;
+    transition: 0.4s;
+    outline: none;
+    font-size: 45px;
+   
+}
+
+.active, .accordion:hover {
+    background-color: #ccc; 
+}
+
+.panel {
+    padding: 0 18px;
+    display: none;
+    background-color: white;
+    overflow: hidden;
+}
+
+
+.cert-pups{
+    display: flex;
+    flex-direction: column;
+
+}
+.pup-upr-cert{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.pup-upr-left{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+.pup-name{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14pt;
+}
+.ppz-txt{
+    font-weight: bold;
+    font-size: 22pt;
+    padding: 12px;
+    margin-bottom: 0;
+}
+.pup-left-img{
+    width: 300px;
+    height: 200px;
+    background: green;
+}
+.pup-right-img{
+    width: 300px;
+    height: 200px;
+    background: green;
+    align-self: center;
+}
+
+.all_pp{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.pup_ims{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+.pup_man_imf{
+     box-shadow: 0px 0px 32px 14px rgba(152, 180, 255, 0.76);
+     margin-left: 20px;
+     margin-right: 20px;
+     padding: 0;
+     border-radius: 15px;
+     display: block;
+}
+.pup_girl_imf{
+    box-shadow: 0px 0px 32px 14px rgba(255, 167, 255, 0.76);
+    margin-left: 20px;
+     margin-right: 20px;
+     padding: 0;
+     display: block;
+     border-radius: 15px;
+}
+/*puppies sec ends here*/
+/*font: segoe Print--Garamond*/
+
